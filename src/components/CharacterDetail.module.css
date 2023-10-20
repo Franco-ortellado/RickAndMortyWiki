@@ -1,0 +1,24 @@
+.animatefadeIn {
+	opacity: 0;
+	animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* CharacterDetail.module.css */
+.animateMove {
+	transition: transform 0.3s ease; /* Agrega una transición para un movimiento suave */
+}
+
+.animateMove:hover {
+	transform: translateX(
+		10px
+	); /* Mueve el elemento hacia la derecha; ajusta según tus preferencias */
+}

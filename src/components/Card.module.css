@@ -1,0 +1,9 @@
+.card {
+	/* Estilos base de la tarjeta */
+	transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+	transform: scale(1.05); /* Escalar la tarjeta */
+	box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.12); /* Sombras más pronunciadas */
+}
