@@ -17,12 +17,14 @@ const CharacterList = ({characters}) => {
 	};
 
 	if (!characters || characters.length === 0) {
-		return (
-			<div>
-				<h1 className="text-2xl font-bold">RickAndMortyWiki</h1>
-				<p>No hay personajes disponibles.</p>
-			</div>
-		);
+		setTimeout(() => {
+			return (
+				<div>
+					<h1 className="text-2xl font-bold">RickAndMortyWiki</h1>
+					<p>No hay personajes disponibles.</p>
+				</div>
+			);
+		}, 2000);
 	}
 
 	// Filtrar personajes basados en el término de búsqueda
